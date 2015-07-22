@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5064" systemVersion="13C64" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="MoviesFuture" syncable="YES">
+        <attribute name="movieDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="movieDirector" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="movieExpectation" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="movieGenre" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="movieName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="MoviesPast" syncable="YES">
+        <attribute name="movieDirector" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="movieGenre" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="movieName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="movieOpinion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="movieRating" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="movieRecommendation" optional="YES" attributeType="Boolean" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="MoviesFuture" positionX="-63" positionY="27" width="128" height="120"/>
+        <element name="MoviesPast" positionX="-63" positionY="-18" width="128" height="135"/>
+    </elements>
+</model>
